@@ -1,0 +1,20 @@
+<md:EntityDescriptor
+    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="http://www.okta.com/exktnfx8pqjUuQ3ye1d7">
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIDtjCCAp6gAwIBAgIGAZuffRIxMA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU MBIGA1UECwwLU1NPUHJvdmlkZXIxHDAaBgNVBAMME2t5bmRyeWxzYW5kYm94dGhyZWUxHDAaBgkq hkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wHhcNMjYwMTA4MjEyMTEyWhcNMzYwMTA4MjEyMjEyWjCB mzELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lz Y28xDTALBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRwwGgYDVQQDDBNreW5kcnls c2FuZGJveHRocmVlMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0B AQEFAAOCAQ8AMIIBCgKCAQEAgxkQbev/dPusrEnIk9xKjYOgr+zEZsEmLkz0lVh1pFczNqyVn4wK d0dCPFmrmVOSuOPONDl0nl4fxVmZBc169L8AlhAyLxqifUhSq7VdJHuYsBYBKsiGmB1ZWzoJUckv drghSJ+LaGcBZS2Ni2jfsUurWDOZy7xnnbvnmWndu7m8EaRysnnMsF9vctS8Gsa4c0Eq35guuiZF hiV3NQ8uAc3ZNjE5HqRxtsYEWF1UjH86lbWyvU2EHOoWYpZIrP3dYpSRdm6UD02TSRuKftMMmHSK tSKllWFwNGNRTEtSpuhAUQpLemHtLqpg9ucyBAMvZbqPLnwDVkVjbqp3sKf7NwIDAQABMA0GCSqG SIb3DQEBCwUAA4IBAQBAkCRa2sb7tBqotLcm1Ooc1uB9Ppt11mApO00EnTjFoBeAMN72Em2O0Yva yDyuaGCtflVD/zRYXrhwcqzVbkEz/gexTYIWItoRJmTv/klxM5cHuaxug9cFbYKHkIJUU9Ak5ohD IH/nISLH5DfdD4nyLjn2kIvFRrfry6rLRVvxhMoPVC6oFWGS2FnmJnYerMnT6R4/iqfmH6ieJRhY QvquUaJSzZuW/jcZFdpSoN2oNAiVDXcHwNqtbZtVO5Zh19v59xMaWVPoXQ9uLdz6qua+WYH0aVnD Q3xKV7lGor5iClxOg30QYAXhtz/hR/NDqXE67LNYhzxzjRJyxNQJG89E
+</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+        </md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://preprod.connect.kyndryl.net/app/kyndrylsandboxthree_talentradar_1/exktnfx8pqjUuQ3ye1d7/sso/saml"/>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://preprod.connect.kyndryl.net/app/kyndrylsandboxthree_talentradar_1/exktnfx8pqjUuQ3ye1d7/sso/saml"/>
+    </md:IDPSSODescriptor>
+</md:EntityDescriptor>
